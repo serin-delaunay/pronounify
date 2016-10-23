@@ -1,5 +1,4 @@
 {
-  "description": "Third person personal pronouns with case",
   "thirdPersonPronouns": [
     {
       "subject": "E",
@@ -449,5 +448,6 @@
       "independentPossessive": "zmyrs",
       "reflexive": "zmyrself"
     }
-  ]
+  ],
+  "description": "Third person personal pronouns with case"
 }

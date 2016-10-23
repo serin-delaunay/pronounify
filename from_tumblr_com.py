@@ -4,15 +4,10 @@
 # In[1]:
 
 import re
-from get_content import get_content
+from get_content import get_content, get_html_plaintext
 
 
 # In[2]:
-
-from bs4 import BeautifulSoup
-
-
-# In[3]:
 
 def extract(text):
     r = "([a-zA-Z'*]+/){4}[a-zA-Z'*]+"
@@ -21,7 +16,7 @@ def extract(text):
     return [ps[0].split('/') for ps in pronouns]
 
 
-# In[4]:
+# In[3]:
 
 def result():
     targets = ['http://destroythecistem.tumblr.com/pronouns',
@@ -33,18 +28,12 @@ def result():
                'http://askanonbinary.tumblr.com/royal',
                'http://askanonbinary.tumblr.com/ungrouped'
               ]
-    def all_texts():
-        for target in targets:
-            content_html = get_content(target)
-            soup = BeautifulSoup(content_html, 'lxml')
-            for script in soup(['script', 'style']):
-                script.extract()
-            yield soup.get_text()
-    all_pronouns = '\n'.join(all_texts())
+    all_pronouns = '\n'.join(get_html_plaintext(get_content(target))
+                             for target in targets)
     return extract(all_pronouns)
 
 
-# In[5]:
+# In[4]:
 
 if __name__ == '__main__':
     printme = result()
