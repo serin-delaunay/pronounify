@@ -24,3 +24,10 @@ def get_html_plaintext(content_html):
             script.extract()
         return soup.get_text()
 
+
+# In[4]:
+
+def get_html_b_h2(content_html):
+        soup = BeautifulSoup(content_html, 'lxml')
+        return '\n'.join(x.get_text() for x in soup(['b', 'h2']))
+

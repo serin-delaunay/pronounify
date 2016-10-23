@@ -106,8 +106,7 @@ class nonbinary_org_tests(unittest.TestCase):
         self.assertEqual(
             from_nonbinary_org.extract(
                 'I, me, my, mine, myself. blah blah '
-                'she, her, her, hers, herself miaouw'
-                'he, she, they, it, and'),# check this is removed
+                'she, her, her, hers, herself miaouw '),
             [['I','me','my','mine','myself'],
              ['she','her','her','hers','herself']])
     def test_parsing_alternatives(self):
