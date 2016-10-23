@@ -1,16 +1,6 @@
 
 # coding: utf-8
 
-# In[1]:
-
-import urllib.request
-
-
-# In[2]:
-
-import requests
-
-
 # In[3]:
 
 def extract(text):
