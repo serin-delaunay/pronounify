@@ -18,7 +18,9 @@ def extract(text):
 # In[3]:
 
 def result():
-    all_pronouns = open('aanbtc.txt').read()
+    f = open('aanbtc.txt')
+    all_pronouns = f.read()
+    f.close()
     # http://askanonbinary.tumblr.com/pronouns
     #all_pronouns = general + animal + nature + creature + royal + misc
     return extract(all_pronouns)

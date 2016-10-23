@@ -10,7 +10,9 @@ def extract(text):
 # In[2]:
 
 def result():
-    source = open('pronoun_is.txt').read()
+    f = open('pronoun_is.txt')
+    source = f.read()
+    f.close()
     # https://github.com/witch-house/pronoun.is/blob/develop/resources/pronouns.tab
     return extract(source)
 

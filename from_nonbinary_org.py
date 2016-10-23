@@ -32,7 +32,9 @@ def extract(text):
 # In[5]:
 
 def result():
-    blather = open('nonbinary_org.txt', encoding="utf8").read()
+    f = open('nonbinary_org.txt', encoding="utf8")
+    blather = f.read()
+    f.close()
     # http://nonbinary.org/wiki/Pronouns (English section)
     return extract(blather)
 
