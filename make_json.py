@@ -44,4 +44,5 @@ from from_aanbtc import result as result3
 
 if __name__ == '__main__':
     make_json(result1()+result2()+result3())
+    print(open('thirdPersonPronouns.json').read())
 
