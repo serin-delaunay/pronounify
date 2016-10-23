@@ -20,6 +20,7 @@ blather = ''.join(open('nonbinary_org.txt', encoding="utf8").readlines())
 # In[4]:
 
 r = "([a-zA-Z']+ \([a-zA-Z']+\), |[a-zA-Z']+, ){4}([a-zA-Z']+ \([a-zA-Z']+\)|[a-zA-Z']+)"
+# "asd, asd (asdf), asd'f, as, a"
 nbo = [m.group().split(', ') for m in re.finditer(r, blather)]
 
 

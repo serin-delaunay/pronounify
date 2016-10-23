@@ -20,6 +20,7 @@ all_pronouns = ''.join(open('aanbtc.txt').readlines())
 # In[4]:
 
 r = "([a-zA-Z'*]+/){4}[a-zA-Z'*]+"
+# "asd/as*/a*d/*sd/dsa"
 pronouns = [m.group().split(', ') for m in re.finditer(r, all_pronouns)]
 
 
