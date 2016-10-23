@@ -25,12 +25,15 @@ def make_obj(pronoun):
 
 # In[4]:
 
-def make_json(pronouns, fn='thirdPersonPronouns.json'):
+def make_json(pronouns, fn=None):
     pronouns = set(tuple(p) for p in pronouns)
     pronouns = [make_obj(p) for p in sorted(pronouns)]
     py_obj = {'description': 'Third person personal pronouns with case',
               'thirdPersonPronouns': pronouns}
-    return json.dump(py_obj, open(fn, 'w'),indent=2)
+    if fn is None:
+        return json.dumps(py_obj, indent=2)
+    else:
+        json.dump(py_obj, open(fn, 'w'),indent=2)
 
 
 # In[5]:
@@ -43,6 +46,7 @@ from from_aanbtc import result as result3
 # In[6]:
 
 if __name__ == '__main__':
-    make_json(result1()+result2()+result3())
-    print(open('thirdPersonPronouns.json').read())
+    all_pronouns = result1()+result2()+result3()
+    make_json(all_pronouns, 'thirdPersonPronouns.json')
+    print(make_json(all_pronouns))
 
