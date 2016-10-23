@@ -74,7 +74,7 @@ class json_tests(unittest.TestCase):
             make_json([[]])
 
 
-# In[29]:
+# In[30]:
 
 import from_pronoun_is
 class pronoun_is_tests(unittest.TestCase):
@@ -92,4 +92,67 @@ ze	zir	zir	zirs	zirself"""),
             self.assertEqual(len(x),5)
             for p in x:
                 self.assertIsInstance(p, str)
+
+
+# In[33]:
+
+import from_nonbinary_org
+class nonbinary_org_tests(unittest.TestCase):
+    def test_parsing_basic(self):
+        self.assertEqual(
+            from_nonbinary_org.extract(
+                'I, me, my, mine, myself'),
+            [['I','me','my','mine','myself']])
+        self.assertEqual(
+            from_nonbinary_org.extract(
+                'I, me, my, mine, myself. blah blah '
+                'she, her, her, hers, herself miaouw'
+                'he, she, they, it, and'),# check this is removed
+            [['I','me','my','mine','myself'],
+             ['she','her','her','hers','herself']])
+    def test_parsing_alternatives(self):
+        self.assertEqual(
+            from_nonbinary_org.extract(
+                'a, b, c, d (e), f'),
+            [['a','b','c','d','f'],
+             ['a','b','c','e','f']])
+        self.assertEqual(
+            from_nonbinary_org.extract(
+                'a, b, c, d, e (f)'),
+            [['a','b','c','d','e'],
+             ['a','b','c','d','f']])
+        self.assertEqual(
+            from_nonbinary_org.extract(
+                'a, b (g), c, d, e (f)'),
+            [['a','b','c','d','e'],
+             ['a','b','c','d','f'],
+             ['a','g','c','d','e'],
+             ['a','g','c','d','f']])
+    def test_results(self):
+        r = from_nonbinary_org.result()
+        self.assertGreater(len(r), 20)
+        for x in r:
+            self.assertEqual(len(x),5)
+            for p in x:
+                self.assertIsInstance(p, str)
+
+
+# In[36]:
+
+import from_aanbtc
+class aanbtc_tests(unittest.TestCase):
+    def test_parsing(self):
+        self.assertEqual(
+            from_aanbtc.extract(
+                'a/b/c/d/e f/g/h/i/j'),
+            [['a','b','c','d','e'],
+             ['f','g','h','i','j']])
+    def test_results(self):
+        r = from_aanbtc.result()
+        self.assertGreater(len(r), 5)
+        for x in r:
+            self.assertEqual(len(x),5)
+            for p in x:
+                self.assertIsInstance(p, str)
+        
 
