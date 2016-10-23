@@ -8,7 +8,7 @@ import re
 
 # In[2]:
 
-all_pronouns = ''.join(open('aanbtc.txt').readlines())
+all_pronouns = open('aanbtc.txt').read()
 # http://askanonbinary.tumblr.com/pronouns
 
 

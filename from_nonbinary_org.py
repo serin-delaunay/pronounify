@@ -13,7 +13,7 @@ from itertools import product, chain
 
 # In[3]:
 
-blather = ''.join(open('nonbinary_org.txt', encoding="utf8").readlines())
+blather = open('nonbinary_org.txt', encoding="utf8").read()
 # http://nonbinary.org/wiki/Pronouns (English section)
 
 

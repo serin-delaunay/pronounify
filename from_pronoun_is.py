@@ -3,7 +3,7 @@
 
 # In[1]:
 
-source = ''.join(open('pronoun_is.txt').readlines())
+source = open('pronoun_is.txt').read()
 # https://github.com/witch-house/pronoun.is/blob/develop/resources/pronouns.tab
 
 
