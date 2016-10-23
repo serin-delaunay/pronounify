@@ -13,3 +13,5 @@ http://askanonbinary.tumblr.com/pronouns
 TODO:
 
 process sets of 4 or fewer pronouns to figure out the full 5-pronoun set.
+
+retrieve source texts by HTTP rather than paste into static text files in the source tree.
