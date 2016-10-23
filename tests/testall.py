@@ -1,18 +1,18 @@
 
 # coding: utf-8
 
-# In[6]:
+# In[1]:
 
 from import_utils import add_relative_path
 add_relative_path('..')
 
 
-# In[17]:
+# In[2]:
 
 import unittest
 
 
-# In[26]:
+# In[3]:
 
 import json
 from make_json import make_json #ipython
@@ -74,7 +74,7 @@ class json_tests(unittest.TestCase):
             make_json([[]])
 
 
-# In[30]:
+# In[4]:
 
 import from_pronoun_is
 class pronoun_is_tests(unittest.TestCase):
@@ -94,7 +94,7 @@ ze	zir	zir	zirs	zirself"""),
                 self.assertIsInstance(p, str)
 
 
-# In[33]:
+# In[5]:
 
 import from_nonbinary_org
 class nonbinary_org_tests(unittest.TestCase):
@@ -137,7 +137,7 @@ class nonbinary_org_tests(unittest.TestCase):
                 self.assertIsInstance(p, str)
 
 
-# In[36]:
+# In[6]:
 
 import from_aanbtc
 class aanbtc_tests(unittest.TestCase):
