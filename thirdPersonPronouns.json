@@ -3880,13 +3880,6 @@
       "reflexive": "itself"
     },
     {
-      "subject": "iv",
-      "object": "ivy",
-      "dependentPossessive": "iv",
-      "independentPossessive": "ivs",
-      "reflexive": "ivself"
-    },
-    {
       "subject": "j",
       "object": "j",
       "dependentPossessive": "j’s",
@@ -4629,13 +4622,6 @@
       "reflexive": "licoself"
     },
     {
-      "subject": "lil",
-      "object": "lily",
-      "dependentPossessive": "lils",
-      "independentPossessive": "lilies",
-      "reflexive": "lilself"
-    },
-    {
       "subject": "lim",
       "object": "lime",
       "dependentPossessive": "limes",
@@ -4935,13 +4921,6 @@
       "dependentPossessive": "gor",
       "independentPossessive": "gors",
       "reflexive": "mandraself"
-    },
-    {
-      "subject": "mang",
-      "object": "mango",
-      "dependentPossessive": "mangs",
-      "independentPossessive": "mangs",
-      "reflexive": "mangself"
     },
     {
       "subject": "mango",
@@ -5845,13 +5824,6 @@
       "dependentPossessive": "os",
       "independentPossessive": "os",
       "reflexive": "opuself"
-    },
-    {
-      "subject": "oak",
-      "object": "oaken",
-      "dependentPossessive": "oaks",
-      "independentPossessive": "oakens",
-      "reflexive": "oakself"
     },
     {
       "subject": "ob",
@@ -9891,13 +9863,6 @@
       "dependentPossessive": "ȝer",
       "independentPossessive": "ȝers",
       "reflexive": "ȝimself"
-    },
-    {
-      "subject": "ох",
-      "object": "ех",
-      "dependentPossessive": "ех",
-      "independentPossessive": "ем",
-      "reflexive": "их"
     }
   ]
 }
