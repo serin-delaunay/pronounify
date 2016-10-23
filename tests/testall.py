@@ -10,18 +10,13 @@ add_relative_path('..')
 # In[17]:
 
 import unittest
-import json
-from make_json import make_json #ipython
-#from .make_json import make_json #python
-
-
-# In[19]:
-
-def correct_format(text):
-    obj = json.loads(text)
 
 
 # In[26]:
+
+import json
+from make_json import make_json #ipython
+#from .make_json import make_json #python
 
 class json_tests(unittest.TestCase):
     def validate_format(self, obj):
@@ -72,10 +67,29 @@ class json_tests(unittest.TestCase):
         self.assertEqual(len(obj['thirdPersonPronouns']), 2)
         self.validate_entry(['a','b','c','d','e'],obj['thirdPersonPronouns'][0])
         self.validate_entry(['f','g','h','i','j'],obj['thirdPersonPronouns'][1])
-        
+    def test_fail_missing(self):
+        with self.assertRaises(Exception):
+            make_json([['a','b','c','d']])
+        with self.assertRaises(Exception):
+            make_json([[]])
 
 
-# In[ ]:
+# In[29]:
 
-
+import from_pronoun_is
+class pronoun_is_tests(unittest.TestCase):
+    def test_parsing(self):
+        self.assertEqual(
+            from_pronoun_is.extract(
+                """ze	hir	hir	hirs	hirself
+ze	zir	zir	zirs	zirself"""),
+            [['ze','hir','hir','hirs','hirself'],
+             ['ze','zir','zir','zirs','zirself']])
+    def test_results(self):
+        r = from_pronoun_is.result()
+        self.assertGreater(len(r), 10)
+        for x in r:
+            self.assertEqual(len(x),5)
+            for p in x:
+                self.assertIsInstance(p, str)
 
