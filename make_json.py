@@ -28,8 +28,9 @@ def make_obj(pronoun):
 def make_json(pronouns, fn=None):
     pronouns = set(tuple(p) for p in pronouns)
     pronouns = [make_obj(p) for p in sorted(pronouns)]
-    py_obj = {'description': 'Third person personal pronouns with case',
-              'thirdPersonPronouns': pronouns}
+    py_obj = OrderedDict([
+            ('description', 'Third person personal pronouns with case'),
+            ('thirdPersonPronouns', pronouns)])
     if fn is None:
         return json.dumps(py_obj, indent=2)
     else:
@@ -46,7 +47,11 @@ from from_tumblr_com import result as result3
 # In[6]:
 
 if __name__ == '__main__':
+    print('getting pronouns')
     all_pronouns = result1()+result2()+result3()
+    print('got {0} pronouns'.format(len(all_pronouns)))
+    print('making json')
     make_json(all_pronouns, 'thirdPersonPronouns.json')
-    print(make_json(all_pronouns))
+    print('done')
+    #print(make_json(all_pronouns)) # let's not
 
