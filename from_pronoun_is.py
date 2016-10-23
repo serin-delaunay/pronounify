@@ -3,16 +3,22 @@
 
 # In[1]:
 
-source = open('pronoun_is.txt').read()
-# https://github.com/witch-house/pronoun.is/blob/develop/resources/pronouns.tab
+def extract(text):
+    return [s.split() for s in text.split('\n')]
 
 
 # In[2]:
 
-result = [s.split() for s in source.split('\n')]
+def result():
+    source = open('pronoun_is.txt').read()
+    # https://github.com/witch-house/pronoun.is/blob/develop/resources/pronouns.tab
+    return extract(source)
 
 
 # In[3]:
 
-result
+if __name__ == '__main__':
+    printme = result()
+    for r in printme:
+        print(r)
 

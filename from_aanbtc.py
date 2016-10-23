@@ -8,28 +8,26 @@ import re
 
 # In[2]:
 
-all_pronouns = open('aanbtc.txt').read()
-# http://askanonbinary.tumblr.com/pronouns
+def extract(text):
+    r = "([a-zA-Z'*]+/){4}[a-zA-Z'*]+"
+    # "asd/as*/a*d/*sd/dsa"
+    pronouns = [m.group().split(', ') for m in re.finditer(r, text)]
+    return [ps[0].split('/') for ps in pronouns]
 
 
 # In[3]:
 
-#all_pronouns = general + animal + nature + creature + royal + misc
+def result():
+    all_pronouns = open('aanbtc.txt').read()
+    # http://askanonbinary.tumblr.com/pronouns
+    #all_pronouns = general + animal + nature + creature + royal + misc
+    return extract(all_pronouns)
 
 
 # In[4]:
 
-r = "([a-zA-Z'*]+/){4}[a-zA-Z'*]+"
-# "asd/as*/a*d/*sd/dsa"
-pronouns = [m.group().split(', ') for m in re.finditer(r, all_pronouns)]
-
-
-# In[5]:
-
-result = [ps[0].split('/') for ps in pronouns]
-
-
-# In[6]:
-
-result
+if __name__ == '__main__':
+    printme = result()
+    for r in printme:
+        print(r)
 
