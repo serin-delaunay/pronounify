@@ -303,13 +303,6 @@
       "reflexive": "amundsenself"
     },
     {
-      "subject": "ang",
-      "object": "angel",
-      "dependentPossessive": "angels",
-      "independentPossessive": "angels",
-      "reflexive": "angelsslf"
-    },
-    {
       "subject": "ao",
       "object": "aos",
       "dependentPossessive": "aos",
@@ -637,13 +630,6 @@
       "dependentPossessive": "geu",
       "independentPossessive": "geuse",
       "reflexive": "betelgeuseself"
-    },
-    {
-      "subject": "bea",
-      "object": "beat",
-      "dependentPossessive": "beats",
-      "independentPossessive": "beatself",
-      "reflexive": "beatself"
     },
     {
       "subject": "bean",
@@ -1061,13 +1047,6 @@
     {
       "subject": "ca",
       "object": "cap",
-      "dependentPossessive": "nop",
-      "independentPossessive": "nopus",
-      "reflexive": "canopu"
-    },
-    {
-      "subject": "ca",
-      "object": "cap",
       "dependentPossessive": "pel",
       "independentPossessive": "pella",
       "reflexive": "capellaself"
@@ -1302,13 +1281,6 @@
       "dependentPossessive": "cir",
       "independentPossessive": "cirs",
       "reflexive": "cirself"
-    },
-    {
-      "subject": "ce",
-      "object": "leb",
-      "dependentPossessive": "cel",
-      "independentPossessive": "celeb",
-      "reflexive": "celebe"
     },
     {
       "subject": "cen",
@@ -3902,13 +3874,6 @@
     },
     {
       "subject": "ja",
-      "object": "ar",
-      "dependentPossessive": "vis",
-      "independentPossessive": "arvis",
-      "reflexive": "jarvi"
-    },
-    {
-      "subject": "ja",
       "object": "java",
       "dependentPossessive": "jav",
       "independentPossessive": "javs",
@@ -4074,13 +4039,6 @@
       "dependentPossessive": "kamel",
       "independentPossessive": "kameleo",
       "reflexive": "kameleoself"
-    },
-    {
-      "subject": "ka",
-      "object": "kan",
-      "dependentPossessive": "kans",
-      "independentPossessive": "kansa",
-      "reflexive": "kansa"
     },
     {
       "subject": "ka",
@@ -4560,13 +4518,6 @@
     },
     {
       "subject": "li",
-      "object": "il",
-      "dependentPossessive": "illi",
-      "independentPossessive": "illin",
-      "reflexive": "illinoi"
-    },
-    {
-      "subject": "li",
       "object": "lich",
       "dependentPossessive": "lis",
       "independentPossessive": "lichs",
@@ -4823,13 +4774,6 @@
       "dependentPossessive": "ryl",
       "independentPossessive": "rylan",
       "reflexive": "marylandself"
-    },
-    {
-      "subject": "ma",
-      "object": "sach",
-      "dependentPossessive": "chus",
-      "independentPossessive": "chuset",
-      "reflexive": "massachusett"
     },
     {
       "subject": "ma",
@@ -5196,13 +5140,6 @@
       "reflexive": "missouriself"
     },
     {
-      "subject": "mia",
-      "object": "miap",
-      "dependentPossessive": "cid",
-      "independentPossessive": "cidus",
-      "reflexive": "miaplacidu"
-    },
-    {
       "subject": "mie",
       "object": "mem",
       "dependentPossessive": "mer",
@@ -5495,13 +5432,6 @@
       "dependentPossessive": "narcir",
       "independentPossessive": "narcirs",
       "reflexive": "narcself"
-    },
-    {
-      "subject": "nata",
-      "object": "coco",
-      "dependentPossessive": "des",
-      "independentPossessive": "des",
-      "reflexive": "natas"
     },
     {
       "subject": "ne",
@@ -5889,13 +5819,6 @@
       "reflexive": "oneself"
     },
     {
-      "subject": "oni",
-      "object": "nich",
-      "dependentPossessive": "im",
-      "independentPossessive": "ich",
-      "reflexive": "nimi"
-    },
-    {
       "subject": "oort",
       "object": "oort",
       "dependentPossessive": "oort",
@@ -5929,13 +5852,6 @@
       "dependentPossessive": "orna",
       "independentPossessive": "ornas",
       "reflexive": "ornaself"
-    },
-    {
-      "subject": "ora",
-      "object": "torio",
-      "dependentPossessive": "tor",
-      "independentPossessive": "tors",
-      "reflexive": "torio"
     },
     {
       "subject": "oran",
@@ -6851,13 +6767,6 @@
       "subject": "qui",
       "object": "quin",
       "dependentPossessive": "quint",
-      "independentPossessive": "quintet",
-      "reflexive": "quin"
-    },
-    {
-      "subject": "qui",
-      "object": "quin",
-      "dependentPossessive": "quint",
       "independentPossessive": "quintuple",
       "reflexive": "quintuself"
     },
@@ -7342,13 +7251,6 @@
       "object": "sar",
       "dependentPossessive": "arga",
       "independentPossessive": "sarga",
-      "reflexive": "sarga"
-    },
-    {
-      "subject": "sa",
-      "object": "sar",
-      "dependentPossessive": "arga",
-      "independentPossessive": "sarga",
       "reflexive": "sargassoself"
     },
     {
@@ -7714,13 +7616,6 @@
       "dependentPossessive": "sil",
       "independentPossessive": "single",
       "reflexive": "singleself"
-    },
-    {
-      "subject": "si",
-      "object": "sir",
-      "dependentPossessive": "rius",
-      "independentPossessive": "irius",
-      "reflexive": "siriu"
     },
     {
       "subject": "si",
@@ -8463,13 +8358,6 @@
       "dependentPossessive": "tetra",
       "independentPossessive": "tetrad",
       "reflexive": "tetradself"
-    },
-    {
-      "subject": "te",
-      "object": "tex",
-      "dependentPossessive": "ex",
-      "independentPossessive": "xas",
-      "reflexive": "texa"
     },
     {
       "subject": "tem",
@@ -9352,13 +9240,6 @@
       "dependentPossessive": "wres",
       "independentPossessive": "wres",
       "reflexive": "wrenchself"
-    },
-    {
-      "subject": "wri",
-      "object": "wri",
-      "dependentPossessive": "writes",
-      "independentPossessive": "write",
-      "reflexive": "write"
     },
     {
       "subject": "wu",
