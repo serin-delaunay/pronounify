@@ -19,18 +19,20 @@ def extract(text):
 # In[3]:
 
 def result():
-    targets = ['http://destroythecistem.tumblr.com/pronouns',
+    targets = [#'http://destroythecistem.tumblr.com/pronouns',
                'http://pronoun-provider.tumblr.com/pronouns',
-               'http://askanonbinary.tumblr.com/general',
+               #'http://askanonbinary.tumblr.com/general',
                #'http://askanonbinary.tumblr.com/non-english',
                'http://askanonbinary.tumblr.com/animal',
-               'http://askanonbinary.tumblr.com/nature',
-               'http://askanonbinary.tumblr.com/creature',
-               'http://askanonbinary.tumblr.com/royal',
-               'http://askanonbinary.tumblr.com/ungrouped'
+               #'http://askanonbinary.tumblr.com/nature',
+               #'http://askanonbinary.tumblr.com/creature',
+               #'http://askanonbinary.tumblr.com/royal',
+               #'http://askanonbinary.tumblr.com/ungrouped'
               ]
+    print("getting html from {0} urls".format(len(targets)))
     all_pronouns = '\n'.join(get_html_plaintext(get_content(target))
                              for target in targets)
+    print("html contained {0} plaintext chars".format(len(all_pronouns)))
     return extract(all_pronouns)
 
 
