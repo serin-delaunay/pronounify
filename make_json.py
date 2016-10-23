@@ -34,7 +34,8 @@ def make_json(pronouns, fn=None):
     if fn is None:
         return json.dumps(py_obj, indent=2)
     else:
-        json.dump(py_obj, open(fn, 'w'),indent=2)
+        json.dump(py_obj, open(fn, 'w', encoding='utf8'),
+                  indent=2, ensure_ascii=False)
 
 
 # In[5]:

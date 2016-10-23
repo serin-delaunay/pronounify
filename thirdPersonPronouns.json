@@ -16,11 +16,109 @@
       "reflexive": "h*self"
     },
     {
+      "subject": "0",
+      "object": "0",
+      "dependentPossessive": "0s",
+      "independentPossessive": "0s",
+      "reflexive": "0self"
+    },
+    {
+      "subject": "000",
+      "object": "000",
+      "dependentPossessive": "000s",
+      "independentPossessive": "000s",
+      "reflexive": "000self"
+    },
+    {
+      "subject": "1",
+      "object": "1",
+      "dependentPossessive": "1s",
+      "independentPossessive": "1s",
+      "reflexive": "1self"
+    },
+    {
+      "subject": "2",
+      "object": "2",
+      "dependentPossessive": "2s",
+      "independentPossessive": "2s",
+      "reflexive": "2self"
+    },
+    {
+      "subject": "3",
+      "object": "3",
+      "dependentPossessive": "3s",
+      "independentPossessive": "3s",
+      "reflexive": "3self"
+    },
+    {
+      "subject": "4",
+      "object": "4",
+      "dependentPossessive": "4s",
+      "independentPossessive": "4s",
+      "reflexive": "4self"
+    },
+    {
+      "subject": "5",
+      "object": "5",
+      "dependentPossessive": "5s",
+      "independentPossessive": "5s",
+      "reflexive": "5self"
+    },
+    {
+      "subject": "6",
+      "object": "6",
+      "dependentPossessive": "6s",
+      "independentPossessive": "6s",
+      "reflexive": "6self"
+    },
+    {
+      "subject": "7",
+      "object": "7",
+      "dependentPossessive": "7s",
+      "independentPossessive": "7s",
+      "reflexive": "7self"
+    },
+    {
+      "subject": "8",
+      "object": "8",
+      "dependentPossessive": "8s",
+      "independentPossessive": "8s",
+      "reflexive": "8self"
+    },
+    {
+      "subject": "9",
+      "object": "9",
+      "dependentPossessive": "9s",
+      "independentPossessive": "9s",
+      "reflexive": "9self"
+    },
+    {
+      "subject": "?",
+      "object": "?s",
+      "dependentPossessive": "?s",
+      "independentPossessive": "?",
+      "reflexive": "?self"
+    },
+    {
       "subject": "E",
       "object": "Em",
       "dependentPossessive": "Eir",
       "independentPossessive": "Eirs",
       "reflexive": "Emself"
+    },
+    {
+      "subject": "_",
+      "object": "_s",
+      "dependentPossessive": "_s",
+      "independentPossessive": "_",
+      "reflexive": "_self"
+    },
+    {
+      "subject": "a",
+      "object": "a",
+      "dependentPossessive": "a’s",
+      "independentPossessive": "a’s",
+      "reflexive": "aself"
     },
     {
       "subject": "a",
@@ -308,6 +406,13 @@
       "dependentPossessive": "air",
       "independentPossessive": "airs",
       "reflexive": "emself"
+    },
+    {
+      "subject": "b",
+      "object": "b",
+      "dependentPossessive": "b’s",
+      "independentPossessive": "b’s",
+      "reflexive": "bself"
     },
     {
       "subject": "ba",
@@ -854,6 +959,27 @@
       "dependentPossessive": "cs",
       "independentPossessive": "cs",
       "reflexive": "cself"
+    },
+    {
+      "subject": "c",
+      "object": "c",
+      "dependentPossessive": "c’s",
+      "independentPossessive": "c’s",
+      "reflexive": "cself"
+    },
+    {
+      "subject": "c",
+      "object": "c#",
+      "dependentPossessive": "c#s",
+      "independentPossessive": "c#s",
+      "reflexive": "c#self"
+    },
+    {
+      "subject": "c",
+      "object": "c++",
+      "dependentPossessive": "++",
+      "independentPossessive": "++s",
+      "reflexive": "c++self"
     },
     {
       "subject": "c",
@@ -1822,6 +1948,13 @@
       "reflexive": "cyanself"
     },
     {
+      "subject": "d",
+      "object": "d",
+      "dependentPossessive": "d’s",
+      "independentPossessive": "d’s",
+      "reflexive": "dself"
+    },
+    {
       "subject": "d'u",
       "object": "d'ur",
       "dependentPossessive": "vi",
@@ -2229,6 +2362,13 @@
     },
     {
       "subject": "e",
+      "object": "e",
+      "dependentPossessive": "e’s",
+      "independentPossessive": "e’s",
+      "reflexive": "eself"
+    },
+    {
+      "subject": "e",
       "object": "east",
       "dependentPossessive": "es",
       "independentPossessive": "eas",
@@ -2436,6 +2576,13 @@
       "dependentPossessive": "eyr",
       "independentPossessive": "eyrs",
       "reflexive": "eymself"
+    },
+    {
+      "subject": "f",
+      "object": "f",
+      "dependentPossessive": "f’s",
+      "independentPossessive": "f’s",
+      "reflexive": "fself"
     },
     {
       "subject": "fa",
@@ -2765,6 +2912,13 @@
       "dependentPossessive": "gues",
       "independentPossessive": "gues",
       "reflexive": "fugueself"
+    },
+    {
+      "subject": "g",
+      "object": "g",
+      "dependentPossessive": "g’s",
+      "independentPossessive": "g’s",
+      "reflexive": "gself"
     },
     {
       "subject": "ga",
@@ -3208,6 +3362,13 @@
       "reflexive": "gummyself"
     },
     {
+      "subject": "h",
+      "object": "h",
+      "dependentPossessive": "h’s",
+      "independentPossessive": "h’s",
+      "reflexive": "hself"
+    },
+    {
       "subject": "ha",
       "object": "aw",
       "dependentPossessive": "awa",
@@ -3297,6 +3458,13 @@
       "dependentPossessive": "halle",
       "independentPossessive": "halo",
       "reflexive": "haloself"
+    },
+    {
+      "subject": "halo",
+      "object": "halo-halo",
+      "dependentPossessive": "halos",
+      "independentPossessive": "halos",
+      "reflexive": "halo-haloself"
     },
     {
       "subject": "haw",
@@ -3551,6 +3719,13 @@
       "reflexive": "iceself"
     },
     {
+      "subject": "ie",
+      "object": "ie",
+      "dependentPossessive": "i’s",
+      "independentPossessive": "i’s",
+      "reflexive": "iself"
+    },
+    {
       "subject": "if",
       "object": "if",
       "dependentPossessive": "ifs",
@@ -3713,6 +3888,13 @@
     },
     {
       "subject": "j",
+      "object": "j",
+      "dependentPossessive": "j’s",
+      "independentPossessive": "j’s",
+      "reflexive": "jself"
+    },
+    {
+      "subject": "j",
       "object": "peg",
       "dependentPossessive": "js",
       "independentPossessive": "pegs",
@@ -3871,6 +4053,13 @@
       "dependentPossessive": "ung",
       "independentPossessive": "ungle",
       "reflexive": "jungleself"
+    },
+    {
+      "subject": "k",
+      "object": "k",
+      "dependentPossessive": "k’s",
+      "independentPossessive": "k’s",
+      "reflexive": "kself"
     },
     {
       "subject": "ka",
@@ -4116,6 +4305,13 @@
       "dependentPossessive": "kyr",
       "independentPossessive": "kyrs",
       "reflexive": "kyrself"
+    },
+    {
+      "subject": "l",
+      "object": "l",
+      "dependentPossessive": "l’s",
+      "independentPossessive": "l’s",
+      "reflexive": "lself"
     },
     {
       "subject": "la",
@@ -4578,6 +4774,13 @@
       "dependentPossessive": "lyri",
       "independentPossessive": "lyric",
       "reflexive": "lyricself"
+    },
+    {
+      "subject": "m",
+      "object": "m",
+      "dependentPossessive": "m’s",
+      "independentPossessive": "m’s",
+      "reflexive": "mself"
     },
     {
       "subject": "ma",
@@ -5224,6 +5427,13 @@
       "reflexive": "myrself"
     },
     {
+      "subject": "n",
+      "object": "n",
+      "dependentPossessive": "n’s",
+      "independentPossessive": "n’s",
+      "reflexive": "nself"
+    },
+    {
       "subject": "na",
       "object": "aln",
       "dependentPossessive": "tak",
@@ -5589,6 +5799,13 @@
     },
     {
       "subject": "o",
+      "object": "o",
+      "dependentPossessive": "o’s",
+      "independentPossessive": "o’s",
+      "reflexive": "oself"
+    },
+    {
+      "subject": "o",
       "object": "oct",
       "dependentPossessive": "octa",
       "independentPossessive": "octad",
@@ -5689,6 +5906,13 @@
       "subject": "one",
       "object": "one",
       "dependentPossessive": "ones",
+      "independentPossessive": "ones",
+      "reflexive": "oneself"
+    },
+    {
+      "subject": "one",
+      "object": "one",
+      "dependentPossessive": "one’s",
       "independentPossessive": "ones",
       "reflexive": "oneself"
     },
@@ -5803,6 +6027,13 @@
       "dependentPossessive": "ture",
       "independentPossessive": "tures",
       "reflexive": "overtureself"
+    },
+    {
+      "subject": "p",
+      "object": "p",
+      "dependentPossessive": "p’s",
+      "independentPossessive": "p’s",
+      "reflexive": "pself"
     },
     {
       "subject": "pa",
@@ -6174,6 +6405,13 @@
       "dependentPossessive": "pilo",
       "independentPossessive": "pilot",
       "reflexive": "pilotself"
+    },
+    {
+      "subject": "pi",
+      "object": "pin",
+      "dependentPossessive": "ion",
+      "independentPossessive": "ñon",
+      "reflexive": "piñonself"
     },
     {
       "subject": "pi",
@@ -6575,6 +6813,13 @@
       "reflexive": "thonself"
     },
     {
+      "subject": "q",
+      "object": "q",
+      "dependentPossessive": "q’s",
+      "independentPossessive": "q’s",
+      "reflexive": "qself"
+    },
+    {
       "subject": "qe",
       "object": "qer",
       "dependentPossessive": "qers",
@@ -6650,6 +6895,13 @@
       "dependentPossessive": "quinces",
       "independentPossessive": "quinces",
       "reflexive": "quinceself"
+    },
+    {
+      "subject": "r",
+      "object": "r",
+      "dependentPossessive": "r’s",
+      "independentPossessive": "r’s",
+      "reflexive": "rself"
     },
     {
       "subject": "ra",
@@ -7056,6 +7308,13 @@
       "dependentPossessive": "ust",
       "independentPossessive": "rust",
       "reflexive": "rustself"
+    },
+    {
+      "subject": "s",
+      "object": "s",
+      "dependentPossessive": "s’s",
+      "independentPossessive": "s’s",
+      "reflexive": "esself"
     },
     {
       "subject": "sa",
@@ -8024,6 +8283,20 @@
       "reflexive": "symphself"
     },
     {
+      "subject": "s’mo",
+      "object": "s’mores",
+      "dependentPossessive": "s’more",
+      "independentPossessive": "s’mores",
+      "reflexive": "s’moreself"
+    },
+    {
+      "subject": "t",
+      "object": "t",
+      "dependentPossessive": "t’s",
+      "independentPossessive": "t’s",
+      "reflexive": "tself"
+    },
+    {
       "subject": "ta",
       "object": "ant",
       "dependentPossessive": "res",
@@ -8668,6 +8941,13 @@
       "reflexive": "ubeself"
     },
     {
+      "subject": "ue",
+      "object": "ue",
+      "dependentPossessive": "u’s",
+      "independentPossessive": "u’s",
+      "reflexive": "uself"
+    },
+    {
       "subject": "un",
       "object": "und",
       "dependentPossessive": "unds",
@@ -8680,6 +8960,13 @@
       "dependentPossessive": "unis",
       "independentPossessive": "unis",
       "reflexive": "uniself"
+    },
+    {
+      "subject": "v",
+      "object": "v",
+      "dependentPossessive": "v’s",
+      "independentPossessive": "v’s",
+      "reflexive": "vself"
     },
     {
       "subject": "va",
@@ -8883,6 +9170,13 @@
       "dependentPossessive": "voice",
       "independentPossessive": "voices",
       "reflexive": "voiself"
+    },
+    {
+      "subject": "w",
+      "object": "w",
+      "dependentPossessive": "w’s",
+      "independentPossessive": "w’s",
+      "reflexive": "wself"
     },
     {
       "subject": "wa",
@@ -9117,6 +9411,13 @@
     },
     {
       "subject": "x",
+      "object": "x",
+      "dependentPossessive": "x’s",
+      "independentPossessive": "x’s",
+      "reflexive": "xself"
+    },
+    {
+      "subject": "x",
       "object": "xml",
       "dependentPossessive": "xs",
       "independentPossessive": "xmls",
@@ -9256,6 +9557,13 @@
       "reflexive": "xyrself"
     },
     {
+      "subject": "y",
+      "object": "y",
+      "dependentPossessive": "y’s",
+      "independentPossessive": "y’s",
+      "reflexive": "yself"
+    },
+    {
       "subject": "ya",
       "object": "ang",
       "dependentPossessive": "an",
@@ -9324,6 +9632,13 @@
       "dependentPossessive": "yules",
       "independentPossessive": "yules",
       "reflexive": "yulelogself"
+    },
+    {
+      "subject": "z",
+      "object": "z",
+      "dependentPossessive": "z’s",
+      "independentPossessive": "z’s",
+      "reflexive": "zself"
     },
     {
       "subject": "za",
@@ -9536,6 +9851,13 @@
       "reflexive": "azovself"
     },
     {
+      "subject": "zom",
+      "object": "zomb",
+      "dependentPossessive": "zom’s",
+      "independentPossessive": "zombi",
+      "reflexive": "zombself"
+    },
+    {
       "subject": "zu",
       "object": "cotto",
       "dependentPossessive": "cotts",
@@ -9555,6 +9877,27 @@
       "dependentPossessive": "zxr",
       "independentPossessive": "zxyz",
       "reflexive": "zxyzself"
+    },
+    {
+      "subject": "é",
+      "object": "clair",
+      "dependentPossessive": "clair",
+      "independentPossessive": "clairs",
+      "reflexive": "éclairself"
+    },
+    {
+      "subject": "ȝe",
+      "object": "ȝim",
+      "dependentPossessive": "ȝer",
+      "independentPossessive": "ȝers",
+      "reflexive": "ȝimself"
+    },
+    {
+      "subject": "ох",
+      "object": "ех",
+      "dependentPossessive": "ех",
+      "independentPossessive": "ем",
+      "reflexive": "их"
     }
   ]
 }

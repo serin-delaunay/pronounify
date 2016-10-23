@@ -150,7 +150,11 @@ class tumblr_com_tests(unittest.TestCase):
         r = from_tumblr_com.result()
         self.assertGreater(len(r), 5)
         for x in r:
-            self.assertEqual(len(x),5)
+            try:
+                self.assertEqual(len(x),5)
+            except AssertionError:
+                print("offending pronoun set:{0}".format(x))
+                raise
             for p in x:
                 self.assertIsInstance(p, str)
         

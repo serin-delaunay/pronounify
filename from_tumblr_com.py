@@ -10,7 +10,7 @@ from get_content import get_content, get_html_plaintext
 # In[2]:
 
 def extract(text):
-    r = "([a-zA-Z'*]+/){4}[a-zA-Z'*]+"
+    r = "([^\s/(),]+/){4}([^\s/(),]+)"
     # "asd/as*/a*d/*sd/dsa"
     pronouns = [m.group().split(', ') for m in re.finditer(r, text)]
     return [ps[0].split('/') for ps in pronouns]
@@ -33,13 +33,16 @@ def result():
     all_pronouns = '\n'.join(get_html_plaintext(get_content(target))
                              for target in targets)
     print("html contained {0} plaintext chars".format(len(all_pronouns)))
-    return extract(all_pronouns)
+    # Lithuanian cases do not correspond directly to English pronoun cases
+    return list(filter(lambda x: x != ["Jie","Jų","Jiems","Juos","Jais"],
+                       extract(all_pronouns)))
 
 
 # In[4]:
 
 if __name__ == '__main__':
     printme = result()
-    for r in printme:
-        print(r)
+    #nope!
+    #for r in printme:
+    #    print(r)
 
