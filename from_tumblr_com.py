@@ -20,6 +20,7 @@ def extract(text):
 
 def result():
     targets = ['http://destroythecistem.tumblr.com/pronouns',
+               'http://pronoun-provider.tumblr.com/pronouns',
                'http://askanonbinary.tumblr.com/general',
                #'http://askanonbinary.tumblr.com/non-english',
                'http://askanonbinary.tumblr.com/animal',
