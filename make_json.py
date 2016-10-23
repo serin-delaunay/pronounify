@@ -40,7 +40,7 @@ def make_json(pronouns, fn=None):
 
 from from_nonbinary_org import result as result1
 from from_pronoun_is import result as result2
-from from_aanbtc import result as result3
+from from_tumblr_com import result as result3
 
 
 # In[6]:

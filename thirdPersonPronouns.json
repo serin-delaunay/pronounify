@@ -9,6 +9,41 @@
       "reflexive": "Emself"
     },
     {
+      "subject": "am",
+      "object": "am",
+      "dependentPossessive": "ams",
+      "independentPossessive": "ams",
+      "reflexive": "amself"
+    },
+    {
+      "subject": "be",
+      "object": "am",
+      "dependentPossessive": "are",
+      "independentPossessive": "ares",
+      "reflexive": "amself"
+    },
+    {
+      "subject": "be",
+      "object": "am",
+      "dependentPossessive": "is",
+      "independentPossessive": "is",
+      "reflexive": "amself"
+    },
+    {
+      "subject": "be",
+      "object": "are",
+      "dependentPossessive": "ares",
+      "independentPossessive": "ares",
+      "reflexive": "areself"
+    },
+    {
+      "subject": "be",
+      "object": "are",
+      "dependentPossessive": "is",
+      "independentPossessive": "is",
+      "reflexive": "areself"
+    },
+    {
       "subject": "bron",
       "object": "bronc",
       "dependentPossessive": "bronc",

@@ -1,22 +1,18 @@
 
 # coding: utf-8
 
-# In[3]:
+# In[1]:
+
+from get_content import get_content
+
+
+# In[2]:
 
 def extract(text):
     return [s.split() for s in text.split('\n') if len(s)>0]
 
 
-# In[4]:
-
-def get_content(url):
-    rq = requests.get(url)
-    content = rq.content.decode()
-    rq.close()
-    return content
-
-
-# In[5]:
+# In[3]:
 
 def result():
     target = 'https://raw.githubusercontent.com/witch-house/pronoun.is/develop/resources/pronouns.tab'
@@ -24,7 +20,7 @@ def result():
     return extract(source)
 
 
-# In[6]:
+# In[4]:
 
 if __name__ == '__main__':
     printme = result()

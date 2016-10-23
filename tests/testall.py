@@ -139,16 +139,16 @@ class nonbinary_org_tests(unittest.TestCase):
 
 # In[6]:
 
-import from_aanbtc
-class aanbtc_tests(unittest.TestCase):
+import from_tumblr_com
+class tumblr_com_tests(unittest.TestCase):
     def test_parsing(self):
         self.assertEqual(
-            from_aanbtc.extract(
+            from_tumblr_com.extract(
                 'a/b/c/d/e f/g/h/i/j'),
             [['a','b','c','d','e'],
              ['f','g','h','i','j']])
     def test_results(self):
-        r = from_aanbtc.result()
+        r = from_tumblr_com.result()
         self.assertGreater(len(r), 5)
         for x in r:
             self.assertEqual(len(x),5)
